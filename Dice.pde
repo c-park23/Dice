@@ -20,6 +20,7 @@ void setup() {
   a = 80;
 }
 void draw() {
+  background(100);
   total = 0;
   for (int y = 0; y < rows; y++) { // y coordinate for cols loop
     for (int x = 0; x < cols; x++) { // x coordinate for rows loop
